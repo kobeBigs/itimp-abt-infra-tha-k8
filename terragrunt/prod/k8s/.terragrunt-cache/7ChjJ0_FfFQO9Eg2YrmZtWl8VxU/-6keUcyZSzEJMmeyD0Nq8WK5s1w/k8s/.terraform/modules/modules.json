@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"nginx","Source":"./nginx","Dir":"nginx"},{"Key":"url_shortener","Source":"./url_shortener","Dir":"url_shortener"},{"Key":"url_shortener.postgres_db","Source":"./postgres_db","Dir":"url_shortener/postgres_db"}]}
