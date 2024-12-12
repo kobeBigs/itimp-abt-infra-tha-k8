@@ -20,12 +20,12 @@ generate "provider" {
 
     provider "kubernetes" {
       config_context = "minikube"
-      config_path    = "~/.kube/config" 
+      config_path    = "~/.kube/config" #points to my local k8 config. change it to suit your environment
     }
 
     provider "helm" {
       kubernetes {
-        config_path = "~/.kube/config"
+        config_path = "~/.kube/config" #points to my local k8 config. change it to suit your environment
       }
     }
 EOF
